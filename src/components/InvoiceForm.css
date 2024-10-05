@@ -1,0 +1,55 @@
+.invoice-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .invoice-header, .billing-info, .totals {
+    margin-bottom: 20px;
+  }
+  
+  .date-invoice, .bill-from, .bill-to {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .totals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .totals > div {
+    margin: 10px 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns button to the right */
+  }
+
+  button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: flex-end;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
